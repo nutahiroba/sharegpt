@@ -1,0 +1,10 @@
+{
+  "name":"GPT共有拡張機能",
+  "manifest_version":3,
+  "version":"0.1",
+  "permissions":["activeTab","scripting"],
+	"background": {
+		"service_worker": "share.js"
+	},
+	"action": {}
+}
